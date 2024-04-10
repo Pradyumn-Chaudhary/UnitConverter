@@ -7,7 +7,8 @@ public class UnitConverter {
         for (;;) {
             System.out.println("================================================================================");
             System.out.println("1->KM to Mile\n2->Inche to Foot\n3->CM to Inche\n4->Pound to KG\n5->Inche to Meter\n6->Quit");
-            System.out.println("================================================================================");input = sc.nextInt();
+            System.out.println("================================================================================");
+            input = sc.nextInt();
             switch (input) {
                 case 1:
                     kmToMile();
